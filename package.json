@@ -4,18 +4,19 @@
   "description": "Project1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aayushkr99/Project1.git"
+    "type": "git"
+  
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aayushkr99/Project1/issues"
+   
   },
-  "homepage": "https://github.com/aayushkr99/Project1#readme",
+  
   "dependencies": {
     "body-parse": "^0.1.0",
     "cors": "^2.8.5",
@@ -25,6 +26,8 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.3",
     "mongoose": "^6.3.2",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
   }
 }
