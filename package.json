@@ -9,25 +9,18 @@
   },
   "repository": {
     "type": "git"
-  
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-   
-  },
-  
+  "bugs": {},
   "dependencies": {
     "body-parse": "^0.1.0",
-    "cors": "^2.8.5",
-    "email-validator": "^2.0.4",
     "express": "^4.18.1",
-    "isbn-validate": "^1.0.3",
-    "jsonwebtoken": "^8.5.1",
-    "moment": "^2.29.3",
     "mongoose": "^6.3.2",
     "nodemon": "^2.0.16",
+    "redis": "^3.1.2",
     "shortid": "^2.2.16",
+    "util": "^0.12.4",
     "valid-url": "^1.0.9"
   }
 }
